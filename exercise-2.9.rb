@@ -2,8 +2,24 @@
 # Create a Ruby file called exercise-2.9.rb.
 
 # Define a class called Box
+class Box
+  # def initialize(length, width, depth, lid, material)
+  #   @box_length = length
+  #   @box_width = width
+  #   @box_depth = depth
+  #   @box_lid = lid
+  #   @box_material = material
+  # end
+end
+
 # Create three new Box instances.
-# Print each oox instance.
+box1 = Box.new(3.5, 5.0, 1.8, true, "tupperware")
+box2 = Box.new(0.5, 0.5, 8.0, true, "cardboard")
+box3 = Box.new(2.0, 2.0, 1.5, false, "milk crate")
+# Print each Box instance.
+puts box1
+puts box2
+puts box3
 # Output
 
 # > #<Box:0x00007fa5820e6508>

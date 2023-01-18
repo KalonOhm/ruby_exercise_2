@@ -3,3 +3,5 @@
 
 # name = "John"
 # puts "I have #{name.length} characters in my name."
+# name.capitalize
+# responds_to?
